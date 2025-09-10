@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { getProducts } from '../services/ProductService'
 import Products from '../components/Products';
 
+// fetching data on the home page
 const Home = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
